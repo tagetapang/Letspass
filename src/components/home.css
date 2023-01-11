@@ -1,0 +1,10 @@
+.homediv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    
+    justify-content: center;
+}
+.homediv h1{
+    text-align: center;
+}
