@@ -7,6 +7,7 @@ import CS206 from "./components/CS206"
 import CS208 from "./components/CS208"
 import CS209 from "./components/CS209";
 import MH206 from "./components/MH206"
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/CS-209" element={<CS209 />}/>
         <Route path = "/MH-206" element={<MH206 />}/>
       </Routes>
+      <Footer/>
     </>
   );
 }
