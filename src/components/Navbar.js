@@ -7,7 +7,7 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg  navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
           <Link className="navbar-brand" to="#">
-            NOTEsforall
+            LetsPass
           </Link>
           <button
             className="navbar-toggler"
