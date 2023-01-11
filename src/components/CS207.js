@@ -61,6 +61,15 @@ export default function CS207() {
           <li> n = n -1</li>
         </ol>
         <p>this code has O(n)</p>
+        <h5>other programs</h5>
+        <ol>
+          <li>factorial(n)</li>
+          <li>if n less or equal to 1</li>
+          <li>return 1</li>
+          <li>else</li>
+          <li>return n* factorial (n -1 )</li>
+          <p>timecomplexity = O(n)</p>
+        </ol>
         </>
       ]
     }
