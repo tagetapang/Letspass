@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+
 export default function Fourthsub(props) {
   
   return (
@@ -8,13 +10,8 @@ export default function Fourthsub(props) {
         <div className="container" style={{border:"2px solid black"}}>
           <h1 style={{textAlign:"center"}}>{props.date}</h1>
           <div className="container">
-            <h2>{props.firsttitle}</h2>
-            {props.firstbody}
-            <h2>{props.secondtitle}</h2>
-            {props.secondbody}
-            
-            
-            
+            <h3>{props.firsttitle}</h3>
+            {props.firstbody}      
 
           </div>
         </div>

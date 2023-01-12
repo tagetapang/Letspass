@@ -6,27 +6,25 @@ export default function CS207() {
     date: " 10 jan 2023",
     firstbody: [
       <>
-        <h4>
+        <h3>
           alogritm is a finite set of instruction to complete a task which
           accomplises a task
-        </h4>
+        </h3>
         <p>
           pseudo code is a generic way of describing an Alogrithm without use of
           any specific programming language syntax. It consists of short ,
-          English phrases use to explain specific task
-        </p>
-        <p>
+          English phrases use to explain specific task <br />
           The purpose of using pseudo code is that it is easier for human to
           understand
         </p>
-        <h2>what is a program?</h2>
+        <h3>what is a program?</h3>
         <p>
           A program is a language specific implementatin of the alogritm <br />{" "}
           An algoritm when expressed in some progamming language is called a
           program
         </p>
-        <h2>general rules for calculating run time</h2>
-        <h5>rule-1(for loop)</h5>
+        <h3>general rules for calculating run time</h3>
+        <h3>rule-1(for loop)</h3>
         <ol>
           <li>s = 0</li>
           <li> for i = 1 to n</li>
@@ -36,7 +34,7 @@ export default function CS207() {
           in this code step 1 takes O(1) time and 2 takes O(n+1) and 3 takes
           O(n) <br /> Therefore the time complexity of the code is O(n)
         </p>
-        <h5>rule-2 (nested for loop)</h5>
+        <h3>rule-2 (nested for loop)</h3>
         <ol>
           <li>for i = 1 to m</li>
           <li>for j = 1 to m</li>
@@ -46,7 +44,7 @@ export default function CS207() {
           here we have to do sum of o(m) from 1 to m <br /> Therefore the
           timecomplexity is O(m*m)
        
-        <h5>rule-3 (consecutive statement)</h5>
+        <h3>rule-3 (consecutive statement)</h3>
         
           for example we have two comsecutive code p1 and p2 of timecomplexity
           O(t1) and O(t *t) then we have to following method to calculate the
