@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/letspass/static/css/main.6d87c372.css",
-    "main.js": "/letspass/static/js/main.516d6971.js",
+    "main.js": "/letspass/static/js/main.f31dd1be.js",
     "static/js/787.7a6e373e.chunk.js": "/letspass/static/js/787.7a6e373e.chunk.js",
     "index.html": "/letspass/index.html",
     "main.6d87c372.css.map": "/letspass/static/css/main.6d87c372.css.map",
-    "main.516d6971.js.map": "/letspass/static/js/main.516d6971.js.map",
+    "main.f31dd1be.js.map": "/letspass/static/js/main.f31dd1be.js.map",
     "787.7a6e373e.chunk.js.map": "/letspass/static/js/787.7a6e373e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d87c372.css",
-    "static/js/main.516d6971.js"
+    "static/js/main.f31dd1be.js"
   ]
 }
