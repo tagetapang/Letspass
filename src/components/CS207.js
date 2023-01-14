@@ -203,10 +203,14 @@ export default function CS207() {
     ],
   };
   return (
-    <>
+    <div className="d-flex flex-column">
+
       <Coresub date={tenjune23.date} firstbody={tenjune23.firstbody} />
       <Coresub date={elejune23.date} firstbody={elejune23.firstbody} />
       <Coresub date= "12 june 2023" firsttitle="mass bunk was conducted due to scarcity of water"/>
-    </>
+      <Coresub date= "13 june 2023" firsttitle="mass bunk was conducted due to scarcity of water"/>
+    
+    </div>
+
   );
 }

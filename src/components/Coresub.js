@@ -5,9 +5,9 @@ import React from 'react'
 export default function Fourthsub(props) {
   
   return (
-    <div id='cs-209' style={{marginTop:'100px'}}>
+    <div id='coresub' className='mx-auto' style={{marginTop:'100px',backgroundColor:"white",display:'inline-block',width:"90vw"}}>
       
-        <div className="container" style={{border:"2px solid black"}}>
+        <div className="container">
           <h1 style={{textAlign:"center"}}>{props.date}</h1>
           <div className="container">
             <h3>{props.firsttitle}</h3>

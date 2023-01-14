@@ -21,9 +21,10 @@ export default function CS208() {
     ],
   };
   return (
-    <div>
+    <div  className="d-flex flex-column">
       <Coresub date={elejune23.date} firsttitle={elejune23.firsttitle} firstbody={elejune23.firstbody}/>
       <Coresub date= "12 june 2023" firsttitle="mass bunk was conducted due to scarcity of water"/>
+      <Coresub date= "13 june 2023" firsttitle="mass bunk was conducted due to scarcity of water"/>
     </div>
   );
 }

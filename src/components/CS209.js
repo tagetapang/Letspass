@@ -26,10 +26,11 @@ export default function CS209() {
 
   }
   return (
-    <div>
+    <div  className="d-flex flex-column">
         <Coresub date={tenjan23.date} firsttitle={tenjan23.firsttitle} firstbody ={tenjan23.firstbody}/>
         <Coresub date="11 jan 2023" firsttitle= " class  of cs209 was not held on this date"/>
         <Coresub date= "12 june 2023" firsttitle="mass bunk was conducted due to scarcity of water"/>
+        <Coresub date= "13 june 2023" firsttitle="mass bunk was conducted due to scarcity of water"/>
       
     </div>
   )

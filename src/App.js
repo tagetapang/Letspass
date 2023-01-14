@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 
 
 function App() {
+  document.body.style.background = "#CAF1DE"
   return (
     <>
       <Navbar />
