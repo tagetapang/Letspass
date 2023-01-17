@@ -1,4 +1,5 @@
 import "./App.css";
+
 import Navbar from "./components/Navbar";
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
@@ -11,13 +12,17 @@ import Footer from "./components/Footer";
 
 
 function App() {
+  
+
   document.body.style.background = "#CAF1DE"
   return (
     <>
       <Navbar />
+     
+
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/CS-206" element={<CS206/>} />
+        <Route path="/CS-206"   element={<CS206/>} />
         <Route path="/CS-207" element={<CS207 />} />
         <Route path="/CS-208" element={<CS208 />} />
         <Route path="/CS-209" element={<CS209 />}/>

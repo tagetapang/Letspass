@@ -38,6 +38,19 @@ export default function CS206() {
           <h1><ul><li>Von Neuman</li> <li>Harvard</li></ul></h1>
           <h3>memory unit</h3>
           <p>two types of memory primary -RAM and secondary- ROM. memory unit store data and program </p>
+          <h3>arithmetic logical unit</h3>
+          <p>it does all the arithmetic stuff like add, sub etc</p>
+          <h3>Register</h3>
+          <p>Register is a faster memory temporary, small size <br /> different types of register are -:</p>
+          <ol>
+            <li><strong>MAR</strong>-stores location of data</li>
+            <li><strong>MDR</strong>-stores Data</li>
+            <li><strong>AC</strong>-stores intermediate Result</li>
+            <li><strong>PC</strong>-stores address of next instruction</li>
+          </ol>
+          <h3>control link has the following work</h3>
+          <p>Timing signal- time <br /> and control signal- read/wirte</p>
+          <h1>Bus</h1>
       </>
     ]
   }
