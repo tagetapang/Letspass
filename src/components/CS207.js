@@ -43,9 +43,7 @@ export default function CS207() {
         <p>
           here we have to do sum of o(m) from 1 to m <br /> Therefore the
           timecomplexity is O(m*m)
-       
-        <h3>rule-3 (consecutive statement)</h3>
-        
+          <h3>rule-3 (consecutive statement)</h3>
           for example we have two comsecutive code p1 and p2 of timecomplexity
           O(t1) and O(t *t) then we have to following method to calculate the
           timecomplexity of the code
@@ -195,22 +193,76 @@ export default function CS207() {
               </tr>
             </tbody>
           </table>
-          T(mpn) = C1(m+1) * c2m(p+1) * c3(mp) * c4(mp(n+1) + c5mpn) <br />
-          = O(mpn)
-          if m = p = n then we get O(n*n*n)
+          T(mpn) = C1(m+1) * c2m(p+1) * c3(mp) * c4(mp(n+1) + c5mpn) <br />=
+          O(mpn) if m = p = n then we get O(n*n*n)
         </p>
+      </>,
+    ],
+  };
+  const _17jun23 = {
+    date: "17june23",
+    firstbody: [
+      <>
+        <h3>propblem of finding the min of an arry</h3>
+        <ol>
+          lets say min of arry x with index[ 1 to x]
+          <li>m = x[i]</li>
+          <li>for i = 2 to n</li>
+          <li>
+            if m greater than x[i] then <br /> 4. m = x [i]
+          </li>
+          return m
+        </ol>
+        <table class="table table-striped table-dark">
+          <thead>
+            <tr>
+              <th scope="col">operation</th>
+              <th scope="col">cost</th>
+              <th scope="col">repetations</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>1</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>2</td>
+              <td>n</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>1</td>
+              <td>n-1</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>c4</td>
+              <td>n(n)</td>
+            </tr>
+           
+          </tbody>
+        </table>
+        <p>for best case we have n(n) = 0 <br />t(n) =  2n = O(n) <br /> n(n) = n-1 and for the worst case t(n) = O(n)</p>
+
       </>,
     ],
   };
   return (
     <div className="d-flex flex-column">
-
       <Coresub date={tenjune23.date} firstbody={tenjune23.firstbody} />
       <Coresub date={elejune23.date} firstbody={elejune23.firstbody} />
-      <Coresub date= "12 june 2023" firsttitle="mass bunk was conducted due to scarcity of water"/>
-      <Coresub date= "13 june 2023" firsttitle="mass bunk was conducted due to scarcity of water"/>
-    
+      <Coresub
+        date="12 june 2023"
+        firsttitle="mass bunk was conducted due to scarcity of water"
+      />
+      <Coresub
+        date="13 june 2023"
+        firsttitle="mass bunk was conducted due to scarcity of water"
+      />
+      <Coresub date={_17jun23.date} firstbody={_17jun23.firstbody} />
     </div>
-
   );
 }
